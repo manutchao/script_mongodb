@@ -1,18 +1,19 @@
+// JSON representation of index list
 var data = {
   "index":[
     {
       "collection":"test_collection1",
-      "index":"attributes.sensor_id",
-      "order_by":1
+      "index":"field1",
+      "order_by":-1
     },
     {
       "collection":"test_collection2",
-      "index":"attributes.sensor_id,attributes.timestamp",
+      "index":"field3,field2",
       "order_by":1
     },
     {
       "collection":"test_collection3",
-      "index":"attributes.sector_id,attributes.timestamp,attributes.type",
+      "index":"field1",
       "order_by":1
     }
   ]
